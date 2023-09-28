@@ -32,7 +32,7 @@ def calculate_sum(start, end):
 
         total_sum += num
     return total_sum     
-calculate_sum()
+# calculate_sum()
 
 
 def find_smallest_number(start, end):
@@ -59,7 +59,7 @@ def find_smallest_number(start, end):
         if num < smallest_num:
             smallest_num = num
     return smallest_num
-find_smallest_number()        
+# find_smallest_number()        
 
 def find_largest_number(start, end):
     """
@@ -84,7 +84,7 @@ def find_largest_number(start, end):
         if num > largest_num:
             largest_num = num
     return largest_num
-find_largest_number()
+# find_largest_number()
 
   
 
@@ -115,7 +115,7 @@ def count_even_numbers(start, end):
         if num % 2 == 0:
             count += 1
     return count    
-count_even_numbers()
+# count_even_numbers()
 
 def count_odd_numbers(start, end):
     """
@@ -142,4 +142,4 @@ def count_odd_numbers(start, end):
         if num % 2 != 0:
             count += 1
     return count    
-count_odd_numbers()
+# count_odd_numbers()
